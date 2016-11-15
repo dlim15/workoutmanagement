@@ -1,0 +1,69 @@
+#header{
+	position:relative;
+	background-color:black;
+	color:rgb(228, 230, 245);
+	text-align:center;
+	padding:5px;
+	height:20%;
+	font-family:Franklin Gothic Medium;
+	font-size:40px;
+}
+#header .logout{
+	position:absolute;
+	bottom:9px;
+	right:16px;
+	color:white;
+	font-size:20px;
+}
+#nav{
+	font-family:Franklin Gothic Medium;
+	background-color:black;
+	color:black;
+	line-height:80px;
+	font-size:35px;
+	width:20%;
+	position:relative;
+	height: auto;
+	margin-bottom: -15%;
+	padding-bottom: 15%;
+	/*height:900px;*/
+	float:left;
+}
+#nav ul{
+	list-style:none;
+	color:
+}
+#nav ul a{
+	color:white;
+	text-decoration:none;
+	padding:5px 10px;
+}
+#nav ul li{
+	margin-left:10%;
+	display:none;
+}
+#nav ul li a{
+	font-size:25px;
+}
+#section{
+	font-family:Franklin Gothic Medium;
+	font-size:40px;
+	position:absolute;
+	min-height:500px;
+	top:auto;
+	left:auto;
+	width:100%;
+	height:800px;
+	padding:10px;
+	border:none;
+}
+.boxes{
+	font-size:15px;
+}
+.errMsg{
+	font-weight:bold;
+	color:red;
+}
+.hiddenField{
+	display:none;
+}
